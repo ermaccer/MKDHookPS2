@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\mkd">
+      <UniqueIdentifier>{473ec1aa-8a5f-449d-b49a-181a29250f18}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mkd\camera.c">
+      <Filter>Header Files\mkd</Filter>
+    </ClCompile>
+    <ClCompile Include="mkd\content.c">
+      <Filter>Header Files\mkd</Filter>
+    </ClCompile>
+    <ClCompile Include="mkd\core.c">
+      <Filter>Header Files\mkd</Filter>
+    </ClCompile>
+    <ClCompile Include="mkd\input.c">
+      <Filter>Header Files\mkd</Filter>
+    </ClCompile>
+    <ClCompile Include="mkd\konquest.c">
+      <Filter>Header Files\mkd</Filter>
+    </ClCompile>
+    <ClCompile Include="mkd\object.c">
+      <Filter>Header Files\mkd</Filter>
+    </ClCompile>
+    <ClCompile Include="mkd\screen.c">
+      <Filter>Header Files\mkd</Filter>
+    </ClCompile>
+    <ClCompile Include="mkd\script.c">
+      <Filter>Header Files\mkd</Filter>
+    </ClCompile>
+    <ClCompile Include="mkd\string.c">
+      <Filter>Header Files\mkd</Filter>
+    </ClCompile>
+    <ClCompile Include="ps2mem.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mkdhook.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="moves.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mips.c">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="linkfile">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="makefile">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="character.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mkdeception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mkdhook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mkd\camera.h">
+      <Filter>Header Files\mkd</Filter>
+    </ClInclude>
+    <ClInclude Include="mkd\content.h">
+      <Filter>Header Files\mkd</Filter>
+    </ClInclude>
+    <ClInclude Include="mkd\core.h">
+      <Filter>Header Files\mkd</Filter>
+    </ClInclude>
+    <ClInclude Include="mkd\input.h">
+      <Filter>Header Files\mkd</Filter>
+    </ClInclude>
+    <ClInclude Include="mkd\konquest.h">
+      <Filter>Header Files\mkd</Filter>
+    </ClInclude>
+    <ClInclude Include="mkd\object.h">
+      <Filter>Header Files\mkd</Filter>
+    </ClInclude>
+    <ClInclude Include="mkd\plr_info.h">
+      <Filter>Header Files\mkd</Filter>
+    </ClInclude>
+    <ClInclude Include="mkd\screen.h">
+      <Filter>Header Files\mkd</Filter>
+    </ClInclude>
+    <ClInclude Include="mkd\script.h">
+      <Filter>Header Files\mkd</Filter>
+    </ClInclude>
+    <ClInclude Include="mkd\string.h">
+      <Filter>Header Files\mkd</Filter>
+    </ClInclude>
+    <ClInclude Include="ps2mem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="toc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="moves.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mips.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
