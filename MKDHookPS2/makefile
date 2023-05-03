@@ -28,4 +28,4 @@ all: $(EE_BIN)
 
 PS2SDK = ../external/ps2sdk/ps2sdk
 include $(PS2SDK)/samples/Makefile.pref
-include $(PS2SDK)/samples/Makefile.eeglobal
+include eemakefile.eeglobal
