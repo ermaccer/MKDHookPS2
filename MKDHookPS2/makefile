@@ -1,4 +1,4 @@
-EE_BIN = ../MKDHookPS2.elf
+EE_BIN = ../scripts/MKDHookPS2.elf
 EE_OBJS = main.o \
 mkd\core.o \
 mkd\object.o \
@@ -22,7 +22,7 @@ BASE_ADDRESS = 0x9A0000
 EE_LINKFILE = linkfile
 
 EE_CFLAGS =  -fno-zero-initialized-in-bss
-EE_LDFLAGS = -Wl,--entry=INVOKER -Wl,-Map,../MKDHookPS2.map -Wl,'--defsym=BASE_ADDRESS=$(BASE_ADDRESS)'
+EE_LDFLAGS = -Wl,--entry=INVOKER -Wl,-Map,../scripts/MKDHookPS2.map -Wl,'--defsym=BASE_ADDRESS=$(BASE_ADDRESS)'
 
 all: $(EE_BIN)
 
